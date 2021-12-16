@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: beige;
+}
+header {
+  height: 200px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.449);
+  width: auto;
+}
+#btn {
+  position: relative;
+  border-radius: 20px;
+  background-color: blue;
+  width: 100px;
+  height: 60px;
+  font-size: 1em;
+}
+#svarDiv {
+  position: relative;
+  background-color: burlywood;
+  width: 900px;
+  height: 300px;
+  border-radius: 20px;
+}
+#container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+#inputDiv {
+  display: flex;
+  justify-content: center;
+}
